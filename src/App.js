@@ -27,7 +27,7 @@ function App() {
                 }
             });
             setActiveSection(currentActive);
-            console.log(activeSection);           
+            // console.log(activeSection);           
         };
         
         window.addEventListener('scroll', handleScroll);
