@@ -81,8 +81,8 @@ function Header() {
                                 {
                                     options.map((opt, i) => (
                                         <button onClick={()=> handleModeTheme(opt.text)} key={opt.text}
-                                            className={`p-2 h-10 transition-all px-3 flex justify-center items-center text-xl rounded-full ${mode === opt.text && "text-sky-500 bg-slate-200 dark:bg-slate-100" }`}>
-                                            <span>
+                                            className={`h-10 px-3 py-1 transition-all flex justify-center items-center text-xl rounded-full ${mode === opt.text && "text-sky-500 bg-slate-200 dark:bg-slate-100" }`}>
+                                            <span className='mt-1'>
                                                 <ion-icon name={opt.icon}></ion-icon>
                                             </span>
                                         </button>
