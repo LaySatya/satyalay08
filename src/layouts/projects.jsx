@@ -6,7 +6,6 @@ import Fmansgram from '../assets/images/fmansgram-project.png';
 import FoodApp from '../assets/images/food-app-project.png';
 import FoodPanda from '../assets/images/foodpanda-project.png';
 import FootballAdmin from '../assets/images/FootballAdmin-project.png';
-import PHP_JSON from '../assets/images/PHP-JSON.png';
 import React_App from '../assets/images/React-App.png';
 function Projects(){
     // diplay and search the projects
@@ -59,14 +58,6 @@ function Projects(){
             language: 'Ninja Food',
             animate: 'right'
         },
-        {   
-            image: PHP_JSON,
-            url: 'http://php-satya-projects.infinityfreeapp.com/',
-            title: "JSON With PHP",
-            type: 'Web Development',
-            language: 'JSON',
-            animate: 'left'
-        },
         {
             image: React_App,
             url: 'https://satyalay.vercel.app/',
@@ -74,6 +65,14 @@ function Projects(){
             type: 'Web Development',
             language: 'React App',
             animate: 'left'
+        },
+        {
+            image: React_App,
+            url: 'https://todolist-qu57t.kinsta.app/',
+            title: "ToDoList",
+            type: 'Web Development',
+            language: 'React App',
+            animate: 'right'
         },
     ];
 
