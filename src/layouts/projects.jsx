@@ -7,6 +7,7 @@ import FoodApp from '../assets/images/food-app-project.png';
 import FoodPanda from '../assets/images/foodpanda-project.png';
 import FootballAdmin from '../assets/images/FootballAdmin-project.png';
 import React_App from '../assets/images/React-App.png';
+import ToDoList from '../assets/images/todolist.png';
 function Projects(){
     // diplay and search the projects
     const projects = [
@@ -67,11 +68,11 @@ function Projects(){
             animate: 'left'
         },
         {
-            image: React_App,
+            image: ToDoList,
             url: 'https://todolist-qu57t.kinsta.app/',
             title: "ToDoList",
             type: 'Web Development',
-            language: 'React App',
+            language: 'LaravelXTailwind',
             animate: 'right'
         },
     ];
