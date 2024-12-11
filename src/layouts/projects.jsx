@@ -6,6 +6,7 @@ import Fmansgram from '../assets/images/fmansgram-project.png';
 import FoodApp from '../assets/images/food-app-project.png';
 import FoodPanda from '../assets/images/foodpanda-project.png';
 import FootballAdmin from '../assets/images/FootballAdmin-project.png';
+import OnlineLessons from '../assets/images/online-lessons.png';
 import React_App from '../assets/images/React-App.png';
 import ToDoList from '../assets/images/todolist.png';
 function Projects(){
@@ -74,6 +75,14 @@ function Projects(){
             type: 'Web Development',
             language: 'LaravelXTailwind',
             animate: 'right'
+        },
+        {
+            image: OnlineLessons,
+            url: 'https://khomrean-satya-9roz7.kinsta.app/',
+            title: "Online Lessons",
+            type: 'Web Development',
+            language: 'Laravel',
+            animate: 'left'
         },
     ];
 
