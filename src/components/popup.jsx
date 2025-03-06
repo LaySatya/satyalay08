@@ -1,6 +1,6 @@
 import { useState } from "react";
+import CV from "../assets/cv/LaySatya-CV.pdf";
 import RepairIMG from "../assets/images/repair.png";
-
 function PopUp() {
     const [isOpen , setIsOpen] = useState(false);
     const [showAnimate , setShowAnimate] = useState("");
@@ -32,19 +32,20 @@ function PopUp() {
                                 <i className="ri-close-large-fill"></i>
                                 <span className="sr-only">Close modal</span>
                             </button>
-                            <div className="p-4 md:p-5 text-center">
+                            <div className="p-4 md:p-5 text-center z-50">
                                
                                 <img src={RepairIMG} className="h-16 mx-auto mb-4" alt="under maintain"/>
                                 <h3 className="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">
-                                    I will update this as soon as possible.
+                                    Are you sure you want to download my CV?
                                 </h3>
                                 <button onClick={()=> closeModal()}
                                     data-modal-hide="popup-modal"
                                     type="button"
                                     className="text-white bg-blue-400 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center"
                                 >   
-                                    Thank you
+                                    Cancel
                                 </button>
+                                <a href={CV} className="text-white mx-2 bg-red-400 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-500 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center" download={true}>Download</a>
                                 {/* <button
                                     data-modal-hide="popup-modal"
                                     type="button"

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import Dashboard from '../assets/images/dashboard-project.png';
+import Ecommerce from '../assets/images/e-commerce.png';
 import FA from '../assets/images/FA-project.png';
 import Fmansgram from '../assets/images/fmansgram-project.png';
 import FoodApp from '../assets/images/food-app-project.png';
@@ -12,6 +13,14 @@ import ToDoList from '../assets/images/todolist.png';
 function Projects(){
     // diplay and search the projects
     const projects = [
+        {
+            image: Ecommerce,
+            url: 'https://github.com/LaySatya/PHP_CADT_Project/tree/master/Admin',
+            title: "E-commerce website",
+            type: 'Web Development',
+            language: 'PHP,MYSQL',
+            animate: 'right'
+        },
         {   
             image: FoodPanda,
             url: 'https://foodpanda-kappa.vercel.app/',
