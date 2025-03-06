@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import Dashboard from '../assets/images/dashboard-project.png';
 import Ecommerce from '../assets/images/e-commerce.png';
+import EasyShopUI from '../assets/images/easy-shop.png';
 import FA from '../assets/images/FA-project.png';
 import Fmansgram from '../assets/images/fmansgram-project.png';
 import FoodApp from '../assets/images/food-app-project.png';
@@ -20,6 +21,14 @@ function Projects(){
             type: 'Web Development',
             language: 'PHP,MYSQL',
             animate: 'right'
+        },
+        {
+            image: EasyShopUI,
+            url: 'https://project-front-end-one.vercel.app/',
+            title: "EASY SHOP",
+            type: 'Web Development',
+            language: 'HTML,CSS,JAVASCRIPT',
+            animate: 'left'
         },
         {   
             image: FoodPanda,
