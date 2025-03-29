@@ -14,6 +14,10 @@ function Football(){
             des: ''
         },
         {
+            img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+            des: ''
+        },
+        {
             img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
             des: ''
         },
@@ -26,6 +30,14 @@ function Football(){
             des: ''
         },
         {
+            img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
+            des: ''
+        },
+        {
+            img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
+            des: ''
+        },
+        {
             img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
             des: ''
         },
@@ -34,7 +46,23 @@ function Football(){
             des: ''
         },
         {
-            img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+            img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
+            des: ''
+        },
+        {
+            img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubcodespaces/githubcodespaces-original.svg",
+            des: ''
+        },
+        {
+            img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+            des: ''
+        },
+        {
+            img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+            des: ''
+        },
+        {
+            img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
             des: ''
         },
     ]
@@ -49,7 +77,7 @@ function Football(){
                 </div>
                 <div className="w-full">
                     <div className='slider overflow-hidden h-44 mx-auto relative w-full grid place-items-center'>
-                       <div className='slide-track h-[300px]'>
+                       <div className='slide-track h-[300px] shadow-sm shadow-white'>
                         {
                                 slides.map((slide , i) => (
                                     <div key={i} className='slide flex items-center w-[200px] h-[200px] p-6'>

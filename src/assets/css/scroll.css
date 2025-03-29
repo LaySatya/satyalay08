@@ -9,7 +9,7 @@
 .slide-track{
     display: flex;
     width: calc(250px * 18);
-    animation: scroll 30s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 .slide-track:hover{
     animation-play-state: paused;
