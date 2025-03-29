@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AboutMe from './layouts/aboutme';
 import Contact from './layouts/contactme';
-import Football from './layouts/football';
+import Football from './layouts/language';
 import Footer from './layouts/footer';
 import Header from './layouts/header';
 import Menu from './layouts/menu';
@@ -23,11 +23,11 @@ function App() {
                 if (scrollPosition >= top && scrollPosition < bottom) {
                     currentActive = section.id;
                     // alert(currentActive);
-                    // alert(activeSection); 
+                    // alert(activeSection);
                 }
             });
             setActiveSection(currentActive);
-            // console.log(activeSection);           
+            // console.log(activeSection);
         };
         
         window.addEventListener('scroll', handleScroll);
@@ -39,7 +39,7 @@ function App() {
 
 
     return (
-        <>  
+        <>
             <Menu active={activeSection}/>
             <section id="home">
                 <Header />

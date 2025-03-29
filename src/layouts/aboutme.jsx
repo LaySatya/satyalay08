@@ -5,7 +5,7 @@ function AboutMe(){
     return(
         <section className="dark:text-white text-gray-600 dark:bg-slate-900 bg-blue-50 transition-all">
                 <div  className="md:flex">
-                    <div className="md:w-5/12 w-full flex justify-center md:mt-12 -translate-y-28 md:ml-0">
+                    <div className="md:w-5/12 w-full flex justify-center md:mt-40  -translate-y-28 md:ml-0">
                         <Zoom>
                             <img src={YaImage} className="md:w-80 w-11/12 md:h-[27rem] h-[30rem] shadow-sm hover:opacity-80 cursor-pointer transition-transform shadow-blue-300 border border-y-3 md:ml-1 ml-6 border-x-2 border-blue-400 rounded-lg" alt="MyProfile"/>
                         </Zoom>
