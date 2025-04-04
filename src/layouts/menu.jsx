@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 function Menu({ scrolled }){
     const [theme , setTheme] = useState("home");
     function handleTheme(text){
@@ -6,31 +7,31 @@ function Menu({ scrolled }){
     }
     const options = [
         {
-            icon: "home-outline",
+            icon: "ri-home-line",
             text: "home",
             location: '#home',
             page: 'home'
         },
         {
-            icon: "person-outline",
+            icon: "ri-user-line",
             text: "person",
             location: '#aboutMe',
             page: 'home'
         },
         {
-            icon: "code-outline",
+            icon: "ri-graduation-cap-line",
             text: "code",
             location: '#projects',
             page: 'home'
         },
         {
-            icon: "football-outline",
+            icon: "ri-code-line",
             text: "football",
             location: '#football',
             page: 'football'
         },
        {
-            icon: "chatbox-outline",
+            icon: "ri-message-line",
             text: "chatbox",
             location: '#contactMe',
             page: 'contactMe'
@@ -44,13 +45,14 @@ function Menu({ scrolled }){
                                 options.map((opt , i) =>(
                                     <a href={`${opt.location}`} key={i} onClick={() => handleTheme(opt.text)}>
                                     <li className={`m-2 transition-all duration-500 cursor-pointer rounded-full p-5 flex justify-center items-center ${theme === opt.text && "bg-sky-400 animate-pulse text-white"}`}>
-                                        <ion-icon name={opt.icon}></ion-icon>
+                                        <i class={opt.icon}></i>
                                     </li>
                                 </a>
                                 ))
                             }
                             
                         </ul>
+                        
                 </div>  
             </div>
     );
