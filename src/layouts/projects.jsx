@@ -10,6 +10,7 @@ import FoodPanda from '../assets/images/foodpanda-project.png';
 import FootballAdmin from '../assets/images/FootballAdmin-project.png';
 import OnlineLessons from '../assets/images/online-lessons.png';
 import React_App from '../assets/images/React-App.png';
+import SalakumpiQuestionsAnswer from '../assets/images/salakumpi-questions.png';
 import ToDoList from '../assets/images/todolist.png';
 function Projects(){
     // diplay and search the projects
@@ -102,6 +103,15 @@ function Projects(){
             language: 'Laravel',
             animate: 'left'
         },
+        {
+            image: SalakumpiQuestionsAnswer,
+            url: 'https://salakumpi.vercel.app/',
+            title: "Salakumpi Question&Answer Practice",
+            type: 'Web Development',
+            language: 'React Js',
+            animate: 'right'
+        },
+
     ];
 
     const [filter , setFilter] = useState("All projects");

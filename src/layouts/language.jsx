@@ -72,7 +72,7 @@ function Football(){
                 <div>
                     <Fade>
                         <h3 className="text-xl font-medium text-center">Programming Languages</h3>
-                        <h1 className="text-[40px] text-center font-bold text-blue-400">Coding <span className='text-3xl duration-1000 delay-100 animate-ping'>.</span></h1>
+                        <h1 className="text-[40px] text-center font-bold text-blue-400">Coding Skills <span className='text-3xl duration-1000 delay-100 animate-ping'>.</span></h1>
                     </Fade>
                 </div>
                 <div className="w-full">

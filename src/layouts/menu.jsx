@@ -35,7 +35,7 @@ function Menu({ scrolled }){
             text: "chatbox",
             location: '#contactMe',
             page: 'contactMe'
-        }, 
+        },
     ]
     return(
             <div className="fixed bottom-0 w-full z-50 dark:bg-slate-900 bg-blue-50">
